@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办清单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background: #e6f7e6;
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+        .wrap {
+            height: 75px;
+            margin: 15px 0;
+        }
+        .item {
+            height: 100%;
+            background: #a3e9a3;
+            border-radius: 12px;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 75px;
+            cursor: pointer;
+            transition: 0.2s;
+            color: #000000;
+        }
+        .item:hover {
+            background: #88e888;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">洗衣服</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">洗澡</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">刷牙</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">吃叶黄素</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">早餐</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">准备明天物品</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">镜外面</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">上厕所</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">放闹钟</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">平板充电</div></div>
+    <div class="wrap"><div class="item" onclick="this.style.display='none'">晾衣</div></div>
+</body>
+</html>
